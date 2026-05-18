@@ -65,7 +65,7 @@ This notebook systematically compares model fusion strategies and analyzes linea
 
 ---
 
-Below is the English version of the brief explanation for each section of `main.ipynb`, suitable for your `README.md`:
+Below is the brief explanation for each section of `main.ipynb`:
 
 ---
 
@@ -118,8 +118,3 @@ Below is the English version of the brief explanation for each section of `main.
 - Performance comparison tables and plots for model soups.
 - Fisher similarity heatmaps.
 - Interpolation curves (with barrier) for representative model pairs.
-
----
-
-## Summary
-This notebook systematically compares model fusion strategies and analyzes linear mode connectivity using Fisher information and interpolation curves, revealing connections between initialization, Fisher similarity, and fusion effectiveness.
