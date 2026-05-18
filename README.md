@@ -1,11 +1,11 @@
 
-## Submission
+## 1 Submission
 1. `Report`: detailed analysis of our experimental results and findings.
 2. `main.ipynb`: the specific code implementation.
 3. More information can be founded in "https://github.com/Yves-jack/model_soups-project.git"
    
 ---
-## Dependencies
+## 2 Dependencies
 
 - torch
 - torchvision
@@ -15,16 +15,14 @@
 - matplotlib
 - seaborn
 
-Install with:
 
-```bash
-pip install torch torchvision numpy tqdm pandas matplotlib seaborn
-```
 ---
-## Structure of main.ipynb
+## 3 main.ipynb
 This notebook systematically compares model fusion strategies and analyzes linear mode connectivity using Fisher information and interpolation curves, revealing connections between initialization, Fisher similarity, and fusion effectiveness.
+### 3.1 Experiment platform
+Model training and experimental result acquisition are conducted on an  `8GB RTX4060Ti`, with a full execution of main.ipynb consuming around 90 minutes.
 
-
+### 3.2 Structure of main.ipynb
 **1. Dataloader**
 - Supports MNIST and CIFAR-10 datasets.
 - Normalizes images and returns train, validation, and test DataLoaders.
