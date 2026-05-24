@@ -1,6 +1,6 @@
 data/
-LeNet5-Caffe/
-ResNet18/
+# LeNet5-Caffe/
+# ResNet18/
 utils/
 # *.csv
 # *.png
